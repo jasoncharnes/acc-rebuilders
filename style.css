@@ -1,0 +1,215 @@
+/*
+Theme Name: ACC Rebuilders
+Theme URI: 
+Author: Jason Charnes
+Author URI: http://www.jasoncharnes.com/
+Description: Custom theme for ACC Rebuilders.
+Version: 1.0
+*/
+
+/**
+* ========== Table of Contents ==========
+*
+*	1. Main Styles
+*		a. Font Imports
+*		b. HTML Styles
+*
+* 2. Custom Elements
+* 	a. Header
+* 	b. Slider (Home Page)
+* 	c. Boxes (Home Page)
+*		d. Content
+*		e. Footer
+*
+*	3. Responsive Queries
+*		a. Small Desktops
+*		b. Tablets
+*
+* =======================================
+**/
+
+/**
+* 1a: Font Imports
+**/
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Metrophobic);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+/**
+* 1b: HTML Styles
+**/
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #e6e6e6;
+}
+
+/**
+*	2a: Header
+**/
+#header {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #3b5a90;
+}
+
+#header .logo {
+	margin-top: 5px;
+}
+
+#header .logo a {
+	color: #fff;
+}
+
+#header .logo a:hover {
+	text-decoration: none;
+}
+
+#header .logo h1.acc {
+	font-weight: 400;
+	display: inline;
+	margin-right: 5px;
+}
+
+#header .logo h1.rebuilders {
+	font-weight: 700;
+	display: inline;
+	letter-spacing: .03em;
+}
+
+#header .navigation {
+	text-align: right;
+	margin-top: 15px;
+	font-family: 'Metrophobic', sans-serif;
+}
+
+#header .navigation ul {
+	list-style: none;
+}
+
+#header .navigation ul li {
+	display: inline;
+}
+
+#header .navigation li a {
+	color: #ffffff;
+	font-size: 1.3em;
+	font-weight: 100;
+	letter-spacing: .02em;
+	margin-left: 30px;
+}
+
+#header .navigation li a.active {
+	color: #3b5a90;
+	text-decoration: underline;
+}
+
+#header .navigation a:hover {
+	text-decoration: none;
+}
+
+#header .navigation li a:hover {
+	color: #e6e6e6;
+}
+
+/**
+* 2b: Slider
+**/
+#slider-container {
+	background-color: #e6e6e6;
+}
+
+#slider-container .container .carousel {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#slider img {
+	width: 100%;
+}
+
+/**
+*	2c: Boxes
+**/
+#boxes {
+	padding: 20px;
+	background-color: #ffffff;
+}
+
+#boxes h3 {
+	color: #3b5a90;
+}
+
+/**
+* 2d: Content
+**/
+#content {
+	background-color: #ffffff;
+	padding: 20px 20px 40px;
+	font-size: 1.04em;
+	letter-spacing: .02em;
+	line-height: 1.6em;
+}
+
+#content h1 {
+	margin-bottom: 20px;
+}
+
+#content p {
+	margin-bottom: 1em;
+}
+
+/**
+* 2e: Footer
+**/
+#footer {
+	margin-top: 20px;
+	padding: 20px 0 35px;
+}
+
+#footer img.affiliate {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#footer img.apra {
+	width: 100px;
+}
+
+/**
+* 3a: Small Desktops
+**/
+@media (max-width: 992px) {
+
+	#header .navigation a li {
+		font-size: 1em;
+		margin-left: 8px;
+	}
+
+}
+
+/**
+* 3b: Tablets
+**/
+@media (max-width: 768px) {
+
+	#header .logo {
+		text-align: center;
+	}
+
+	#header .navigation {
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	#header .navigation ul {
+		margin-left: 10px;
+	}
+
+	#header .navigation li a {
+		font-size: .9em;
+		margin-right: 10px;
+		margin-left: 0px;
+	}
+
+}
+
